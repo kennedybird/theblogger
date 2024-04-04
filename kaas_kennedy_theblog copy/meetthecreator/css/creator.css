@@ -1,0 +1,120 @@
+body {
+    background-color: #faf5c59e;
+    margin: 0;
+}
+
+.firstsection {
+    position: relative;
+}
+
+
+.headerrectangle {
+    width: 100%;
+    height: 327px;
+    opacity: 0.6;
+    background: #BDCDC4;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    
+}
+
+.headerrectangle h1 {
+    color: #000;
+    font-family: "Della Respira";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.navs {
+    display: flex;
+    position: absolute;
+    top: 265px;
+    left: 290px;
+    right: 0px;
+    z-index: 999;
+}
+
+.navs > div {
+    margin: 0 39px;
+}
+
+.navs a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-family: Hubballi;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.yellowsection {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 195px;
+    margin-right: 215px;
+}
+
+.yellowsection .creativespaces,
+.yellowsection .creativetools {
+    display: inline-block;
+    margin-top: 58px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #000;
+    font-family: Hubballi;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.blogblurb {
+    color: #000;
+    font-family: "Della Respira";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    width: 40%;
+    text-align: center;
+}
+ 
+
+.greensection {
+   /* top: 1050px;
+    margin-top: 500px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 840px;
+    /* position: absolute; */
+    background-color:#faf5c59e; 
+    opacity: 0.89;
+}
+
+
+.trees {
+    background-image: url(../img/graytrees.jpg);
+    width: 100%;
+    height: 800px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
